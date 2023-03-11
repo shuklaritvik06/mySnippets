@@ -1,0 +1,16 @@
+{
+  "express web server": {
+    "prefix": "nex",
+    "body": [
+      "const express = require(\"express\");",
+      "const cors = require(\"cors\");",
+      "const app=express();",
+      "app.use(express.json());",
+      "app.use(express.urlencoded({extended:false}));",
+      "app.use(cors());",
+      "app.get(\"/\",(req,res)=>{res.send(\"Hello\");})",
+      "app.listen({$1:3000},()=>{console.log(`Server Started On Port: $1`);})"
+    ],
+    "description": "Simple api starter with express"
+  }
+}

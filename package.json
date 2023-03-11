@@ -1,0 +1,40 @@
+{
+  "name": "ritssnippets",
+  "displayName": "ritsSnippets",
+  "description": "Useful Snippets for RS",
+  "version": "1.0.0",
+  "license": "MIT",
+  "publisher": "shuklaritvik06",
+  "homepage": "https://github.com/shuklaritvik06/mySnippets/blob/master/README.md",
+  "bugs": {
+    "url": "https://github.com/shuklaritvik06/mySnippets/issues",
+    "email": "simen.dehlin@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shuklaritvik06/mySnippets"
+  },
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "icon": "images/logo.png",
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/bootstrap.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/tailwindcss.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/node-express.json"
+      }
+    ]
+  }
+}
